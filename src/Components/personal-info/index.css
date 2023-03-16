@@ -1,0 +1,37 @@
+.personal-main{
+    display: flex;
+    margin-top: 3%;
+    width: 100%;
+    align-items: center;
+}
+.info{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+}
+
+.pic{
+    width: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+}
+.me{
+    width: 40%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.info h5{
+    padding-bottom: 15px;
+}
+
+.email, .phone, .location{
+    display: flex;
+    align-items: baseline;
+}
+
+#fname{
+    color: orange;
+}

@@ -1,0 +1,9 @@
+.me-auto{
+    font-weight: 600;
+    padding-left: 25%;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

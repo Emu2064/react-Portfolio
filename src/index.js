@@ -8,6 +8,7 @@ import reportWebVitals from "./reportWebVitals";
 import Personal from "./Components/personal-info";
 import TopSection from "./Components/navbar";
 import About from "./Components/about";
+import Footer from "./Components/footer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -16,6 +17,7 @@ root.render(
       <TopSection />
       <Personal />
       <About />
+      <Footer />
     </div>
   </React.StrictMode>
 );

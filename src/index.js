@@ -7,6 +7,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Personal from "./Components/personal-info";
 import TopSection from "./Components/navbar";
+import About from "./Components/about";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -14,6 +15,7 @@ root.render(
     <div className="main">
       <TopSection />
       <Personal />
+      <About />
     </div>
   </React.StrictMode>
 );
